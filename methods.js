@@ -50,7 +50,8 @@ const myArray = text.split(",");
 console.log(myArray[1]);
 
 // 013 concat - add 2 strings
-console.log(concat(name,l_name));
+let fullname=name.concat(" ", l_name);
+console.log(fullname);
 
 // 014 padstart - It pads a string with another string (multiple times) until it reaches a given length.
 let textt = "5";
